@@ -1,0 +1,12 @@
+---
+---
+
+@use 'main{%- if jekyll.environment == 'production' -%}.bundle{%- endif -%}';
+
+html[data-mode='dark'] {
+  --link-color: rgb(87, 242, 170);
+  --toc-highlight: rgb(87, 242, 170);
+  --sidebar-btn-color: rgb(87, 242, 170 / 95%);
+  --card-hover-bg: rgb(87, 242, 170);
+
+}
