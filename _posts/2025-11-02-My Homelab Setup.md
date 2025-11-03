@@ -6,6 +6,7 @@ tags: homelab list     # TAG names should always be lowercase
 description: Hardware that I use in my homelab setup.
 ---
 
+![image](https://cdn.jsdelivr.net/gh/hunordori/blog@main/assets/img/posts/profile_picture.jpg)
 
 # Hardware
 
