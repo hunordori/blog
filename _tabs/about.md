@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![image](/assets/img/posts/profile_picture.jpg){: width="250" .left}
+![image](assets/img/static/profile_picutre.jpg){: width="250" .left}
 
 I’m interested in problems that can’t be solved by a simple restart. Engineering taught me how to think critically—how to build systems, define standards, and measure progress. I’ve moved across different fields, understanding sometimes an outsider sees what insiders can’t. I often find myself bridging gaps between people, ideas, and disciplines.
 

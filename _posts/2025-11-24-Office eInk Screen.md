@@ -9,7 +9,6 @@ image:
   alt: Office eInk Screen from an office window
 ---
 
-![Office eInk Screen from an office window](/assets/img/posts/2025/11/20251115_eInkScreen.jpg)
 
 This project exemplifies a typical approach of mine. I begin with a simple concept, quickly incorporate a bunch of features, and refine the design by deconstructing it and then enhancing it with useful functionalities. But I am getting ahead of myself. 
 

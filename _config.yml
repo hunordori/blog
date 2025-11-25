@@ -99,7 +99,7 @@ theme_mode: dark # [light | dark]
 cdn: https://cdn.jsdelivr.net/gh/hunordori/blog@main
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/static/profile_picture.jpg
+avatar: assets/img/static/profile_picutre.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
