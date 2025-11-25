@@ -14,7 +14,7 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Hunor - Blog # the main title
+title: Hunor Dori # the main title
 
 tagline: Homelab and other stuff # it will display as the subtitle
 
@@ -40,6 +40,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/hunor # change to your Twitter homepage
     - https://github.com/hunordori # change to your GitHub homepage
+    - https://mastodon.social/@hunor
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -98,7 +99,7 @@ theme_mode: dark # [light | dark]
 cdn: https://cdn.jsdelivr.net/gh/hunordori/blog@main
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/posts/profile_picture.jpg
+avatar: /assets/img/static/profile_picture.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
