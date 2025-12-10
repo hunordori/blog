@@ -9,7 +9,6 @@ image:
   alt: Office eInk Screen from an office window
 ---
 
-
 This project exemplifies a typical approach of mine. I begin with a simple concept, quickly incorporate a bunch of features, and refine the design by deconstructing it and then enhancing it with useful functionalities. But I am getting ahead of myself. 
 
 Initially, the original idea was to install a display—potentially an e-Ink screen—on my office window to prevent unannounced entries during meetings. This required piecing together a lot of information—Which e-Ink displays are compatible with Home Assistant? What driver board do I need? How can I edit the data? I used the following project as a foundational reference: [this](https://github.com/Madelena/esphome-weatherman-dashboard).
