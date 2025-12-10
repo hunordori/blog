@@ -53,7 +53,7 @@ description: Hardware that I use in my homelab setup.
 - 32 GB RAM
 - 1 TB Nvme SSD
 
-## Misc
+# Misc
 
 - FanPico (Custom fan and LED controller)
 - Esp32 temperature sensors
@@ -61,7 +61,7 @@ description: Hardware that I use in my homelab setup.
 - APC Backup Pro (main UPS)
 - several Sonoff S31 plugs for power monitoring
 
-## Backup and Notification
+# Backup and Notification
 
 - GLiNet Spitx (GL-X750) for LTE connection
 - Raspberry Pi 4 for NUT and notifications
