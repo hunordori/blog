@@ -1,7 +1,6 @@
 ---
 ---
-
-@use "main{%- if jekyll.environment == " production " -%}.bundle{%- endif -%}";
+@use 'main{%- if jekyll.environment == 'production' -%}.bundle{%- endif -%}';
 
 html[data-mode="dark"] {
   --link-color: rgb(64, 163, 255);
