@@ -225,10 +225,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-responsive_image:
-  template: _includes/picture.html
-  sizes:
-    - width: 320
-    - width: 480
-    - width: 800
+# responsive_image:
+#   template: _includes/picture.html
+#   sizes:
+#     - width: 320
+#     - width: 480
+#     - width: 800
