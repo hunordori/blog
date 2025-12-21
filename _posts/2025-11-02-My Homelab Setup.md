@@ -80,3 +80,6 @@ description: Hardware that I use in my homelab setup.
 - Gitlab CE
 - Ansible
 - Uptime Kuma
+
+![My homelab setup](assets/img/posts/2025/11/2025-11-02-my_homelab/20250922__MG_2559_homelab.jpg)
+_My homelab setup_

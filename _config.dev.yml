@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://blog.rushdel.me"
+url: ""
 
 github:
   username: hunordori # change to your GitHub username
@@ -97,7 +97,7 @@ theme_mode: dark # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: https://cdn.jsdelivr.net/gh/hunordori/blog@main
+cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
 avatar: assets/img/static/profile_picutre.jpg
