@@ -86,5 +86,3 @@ image:
 
 ![My homelab setup](assets/img/posts/2025/11/2025-11-02-my_homelab/20250922__MG_2559_homelab.jpg)
 _My homelab setup_
-
-{% include image-gallery.html folder="assets/img/posts/2025/11/2025-11-02-my_homelab" %}
