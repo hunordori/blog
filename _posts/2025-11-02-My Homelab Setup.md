@@ -4,6 +4,9 @@ date: 2025-11-02 12:00:00 +/-0000
 categories: homelab hardware
 tags: homelab list     # TAG names should always be lowercase
 description: Hardware that I use in my homelab setup.
+image:
+  path: assets/img/posts/2025/11/2025-11-02-my_homelab/20250922__MG_2522_homelab.jpg
+  alt: My homelab setup
 ---
 
 
@@ -83,3 +86,5 @@ description: Hardware that I use in my homelab setup.
 
 ![My homelab setup](assets/img/posts/2025/11/2025-11-02-my_homelab/20250922__MG_2559_homelab.jpg)
 _My homelab setup_
+
+{% include image-gallery.html folder="assets/img/posts/2025/11/2025-11-02-my_homelab" %}
