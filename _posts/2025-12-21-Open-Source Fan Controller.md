@@ -6,7 +6,7 @@ tags: homelab hardware fan open-source personalproject     # TAG names should al
 author: hunordori
 description: Automatic cooling solution for a 15U rack in my living room.
 image:
-  path: /assets/img/posts/2025/12/racpico_testing.jpeg
+  path: assets/img/posts/2025/12/racpico_testing.jpeg
   alt: Testing rackpico with fans
 ---
 

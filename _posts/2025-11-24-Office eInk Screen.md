@@ -5,7 +5,7 @@ categories: homelab hardware
 tags: homelab homeassistant esphome # TAG names should always be lowercase
 description: eInk screen connected to Home Assistant
 image:
-  path: /assets/img/posts/2025/11/20251115_eInkScreen.jpg
+  path: assets/img/posts/2025/11/20251115_eInkScreen.jpg
   alt: Office eInk Screen from an office window
 ---
 
