@@ -11,3 +11,5 @@ I’m interested in problems that can’t be solved by a simple restart. Enginee
 
 
 To be honest, I’m lazy in the best way: I aim to do things right the first time so I don’t have to do them again. I work deliberately and with attention to detail—never rushed, but always on time.
+
+[View my CV](/cv/)
