@@ -4,6 +4,9 @@ date: 2026-03-24 12:00:00 +/-0000
 categories: homelab DNS
 tags: homelab networking DNS     # TAG names should always be lowercase
 description: Using BIND9 and Ansible to manage my local entries
+image:
+  path: assets/img/posts/2026/3/Home_DNS_diagram.png
+  alt: Homelab DNS setup with BIND9 and Ansible
 ---
 
 Since I watched [Techno Tim’s](https://www.youtube.com/@TechnoTim) homelab video—especially his DNS setup — I’ve wanted to build something similar. The final push came from [Jeff's video (from Craft Computing)](https://www.youtube.com/watch?v=D1e-3ruBkqA&t=851s) about Technitium.
@@ -30,13 +33,13 @@ Using Ansible is helpful for these tasks because you can repeat the setup multip
 
 Prompt: Using BIND9, create 3 DNS servers. One is being a main and 2 of them secondaries, but sharing IPs to load balance between the two. The main DNS server (IP: 192.168.X.21) and one of the secondary (192.168.X.9) lives on the servers, but the 3rd (192.168.x.39) one is on my existing backup Pi. That means even if they are both down, I can resolve internal addresses.
 
-![DNS servers in my homelab](assets/img/posts/2026/03/Home_DNS_diagram.png)
+![DNS servers in my homelab](assets/img/posts/2026/3/Home_DNS_diagram.png)
 
 # In practice
 
 After deploying, and verifying everything worked - by setting my computer’s DNS to static IP addresses - I was happy with the setup. From there, I started adding additional features. Jeff in his video mentioned using DNSSec (DNS over TLS and DNS over HTTPS) and routing traffic through a VPN tunnel, which is becoming increasingly important. I generally prefer not to overcomplicate systems at the beginning. Instead, I like to start simple and gradually add features as needed. For now, I incorporated DNS over TLS into the Ansible playbooks. And of course—because who doesn’t like pretty graphs—I also added a Grafana dashboard to monitor DNS queries and errors.
 
-!(Grafana dashboard for BIND9 DNS server)[assets/img/posts/2026/03/Grafana Dashboard for BIND9.jpg]
+!(Grafana dashboard for BIND9 DNS server)[assets/img/posts/2026/3/Grafana_Dashboard_BIND9.jpg]
 
 Providing backup paths for network traffic was a concern. One of the three servers runs on a Raspberry Pi with a microSD card, which has limited write endurance. To reduce wear on the card, I configured the system so that the Pi-based DNS server primarily acts as a fallback. It only handles traffic if the other secondary server (192.168.X.9) becomes unavailable. Naturally, I tested this failover scenario before switching the network over and updating the DNS server settings in my DHCP configuration.
 
