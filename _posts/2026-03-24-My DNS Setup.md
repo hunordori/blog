@@ -6,7 +6,7 @@ tags: homelab networking DNS     # TAG names should always be lowercase
 description: Using BIND9 and Ansible to manage my local entries
 ---
 
-Since I watched [Techno Tim’s]([https://www.youtube.com/@TechnoTim](https://www.youtube.com/@TechnoTim)) homelab video—especially his DNS setup — I’ve wanted to build something similar. The final push came from [Jeff's video (from Craft Computing](https://www.youtube.com/watch?v=D1e-3ruBkqA&t=851s)) about Technitium.
+Since I watched [Techno Tim’s](https://www.youtube.com/@TechnoTim) homelab video—especially his DNS setup — I’ve wanted to build something similar. The final push came from [Jeff's video (from Craft Computing)](https://www.youtube.com/watch?v=D1e-3ruBkqA&t=851s) about Technitium.
 
 # Why?
 
