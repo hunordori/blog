@@ -3,7 +3,8 @@
     "allow": [
       "Bash(gem contents:*)",
       "WebSearch",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:github.blog)"
     ]
   }
 }
