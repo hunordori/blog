@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gem contents:*)"
+      "Bash(gem contents:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
