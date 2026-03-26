@@ -39,10 +39,10 @@ Prompt: Using BIND9, create 3 DNS servers. One is being a main and 2 of them sec
 
 After deploying, and verifying everything worked - by setting my computer’s DNS to static IP addresses - I was happy with the setup. From there, I started adding additional features. Jeff in his video mentioned using DNSSec (DNS over TLS and DNS over HTTPS) and routing traffic through a VPN tunnel, which is becoming increasingly important. I generally prefer not to overcomplicate systems at the beginning. Instead, I like to start simple and gradually add features as needed. For now, I incorporated DNS over TLS into the Ansible playbooks. And of course—because who doesn’t like pretty graphs—I also added a Grafana dashboard to monitor DNS queries and errors.
 
-!(Grafana dashboard for BIND9 DNS server)[assets/img/posts/2026/3/Grafana_Dashboard_BIND9.jpg]
+![Grafana dashboard for BIND9 DNS server](assets/img/posts/2026/3/Grafana_Dashboard_BIND9.jpg)
 
 Providing backup paths for network traffic was a concern. One of the three servers runs on a Raspberry Pi with a microSD card, which has limited write endurance. To reduce wear on the card, I configured the system so that the Pi-based DNS server primarily acts as a fallback. It only handles traffic if the other secondary server (192.168.X.9) becomes unavailable. Naturally, I tested this failover scenario before switching the network over and updating the DNS server settings in my DHCP configuration.
 
 I am looking forward to utilizing the Ansible playbooks to deploy new entries.
 
-If you want to use the Ansible playbooks (check out my Github)[https://github.com/hunordori/homelab_dns].
+If you want to use the Ansible playbooks [check out my Github](https://github.com/hunordori/homelab_dns).
