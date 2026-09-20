@@ -1,5 +1,5 @@
 ---
-title: 2026-09-20-My homelab story
+title: My homelab story
 date: 2026-09-20
 categories: homelab
 description: From an 8 port switch to 15U rack in my living room
